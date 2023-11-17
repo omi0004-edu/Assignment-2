@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    
+}
+body{
+    min-height: 100vh;
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+background: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+font-size: 18px;
+font-weight: 500;
+color: black;
+text-decoration: none;
+margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+#Landing{
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border-radius: 50px; */
+/* background: #e0e0e0; */
+/* box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff; */
+}
+.intro{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.intro{
+    width: 500px;
+}
+#introp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+.content {
+    display: flexbox;
+    align-items: center;
+}
+.spancontainer{
+    width: 60%;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.spancontainer a{
+    text-decoration: none;
+    color:green;
+}
+.image-container {
+    text-align: right;
+    padding-right: 70px; /* Adjust the padding as needed */
+    float: right;
+}
+.image-container {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; /* Add border radius for a rounded look if desired */
+    /* top: 200px; */
+    float: right;
+}
+
+
+.section {
+    width: 90%;
+    height:600px; /* Set the height you want for your section */
+    margin-left: 190px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.section p {
+    margin: 0;
+    padding: 100px; /* Add some padding to the content for better readability */
+    float: right;
+    line-height: 2;
+}
+.section h1{
+    float:right;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+#address{
+margin-right: 200px;
+line-height: 2;
+}
+#Contact{
+    margin-right: 300px;
+    line-height: 2;
+}
+#info{
+    margin-right: 300px;
+    line-height: 2;
+}
+h4{
+    margin-bottom: 10px;
+}
+body {
+    background-color: #f5f5f5;
+    background-image: url("https://i.imgur.com/mtso0i2.png"); /* Replace with your orange bubble image */
+    background-repeat: repeat;
+}
+
+#signup{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+    color: #ff5f1f;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5f1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e04e1f;
+}
+
+em {
+    color: #ff5f1f;
+    font-size: 14px;
+}
